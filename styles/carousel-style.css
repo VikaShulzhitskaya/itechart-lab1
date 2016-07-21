@@ -64,12 +64,13 @@
   opacity: 1; 
 }
   
-.carousel-wrapper #target-item-2:target ~ .item-2, .carousel-wrapper #target-item-3:target ~ .item-3 {
+.carousel-wrapper #target-item-2:target ~ .item-2,
+.carousel-wrapper #target-item-3:target ~ .item-3 {
   z-index: 3;
   opacity: 1; 
 }
 
-.verticalalignment{
+.vertical-alignment{
     position: absolute;
     top: 50%;
 }
